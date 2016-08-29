@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23543090525753829F0C3A7E /* Pods_Swiftagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EE114C5B1CD040D03EEA207 /* Pods_Swiftagram.framework */; };
+		79A845F71D746D8300DCA8E1 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A845F61D746D8300DCA8E1 /* PostViewController.swift */; };
+		79D90AFF1D7477DA004AEB7B /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D90AFE1D7477DA004AEB7B /* FeedTableViewCell.swift */; };
 		79F3954B1D744D8B005A60A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F3954A1D744D8B005A60A1 /* AppDelegate.swift */; };
 		79F3954D1D744D8B005A60A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F3954C1D744D8B005A60A1 /* ViewController.swift */; };
 		79F395501D744D8B005A60A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F3954E1D744D8B005A60A1 /* Main.storyboard */; };
 		79F395521D744D8B005A60A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F395511D744D8B005A60A1 /* Assets.xcassets */; };
 		79F395551D744D8B005A60A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F395531D744D8B005A60A1 /* LaunchScreen.storyboard */; };
+		79F395611D745C08005A60A1 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F395601D745C08005A60A1 /* UsersTableViewController.swift */; };
+		79F66BB21D7472DC00A6DA5F /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F66BB11D7472DC00A6DA5F /* FeedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6611B3863A46483FEF6F84D5 /* Pods-Swiftagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiftagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swiftagram/Pods-Swiftagram.release.xcconfig"; sourceTree = "<group>"; };
+		79A845F61D746D8300DCA8E1 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		79D90AFE1D7477DA004AEB7B /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
 		79F395471D744D8B005A60A1 /* Swiftagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79F3954A1D744D8B005A60A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79F3954C1D744D8B005A60A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,11 @@
 		79F395511D744D8B005A60A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79F395541D744D8B005A60A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79F395561D744D8B005A60A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F3955F1D7458A2005A60A1 /* Swiftagram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Swiftagram.entitlements; sourceTree = "<group>"; };
+		79F395601D745C08005A60A1 /* UsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		79F66BB11D7472DC00A6DA5F /* FeedTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		9EE114C5B1CD040D03EEA207 /* Pods_Swiftagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swiftagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3EB74C8DC484CC942D7F341 /* Pods-Swiftagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swiftagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swiftagram/Pods-Swiftagram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +42,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23543090525753829F0C3A7E /* Pods_Swiftagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B28AAFB99F6D4A87DD4039E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EE114C5B1CD040D03EEA207 /* Pods_Swiftagram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72BCF3D75A823C8EB8FC70F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB74C8DC484CC942D7F341 /* Pods-Swiftagram.debug.xcconfig */,
+				6611B3863A46483FEF6F84D5 /* Pods-Swiftagram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		79F3953E1D744D8B005A60A1 = {
 			isa = PBXGroup;
 			children = (
 				79F395491D744D8B005A60A1 /* Swiftagram */,
 				79F395481D744D8B005A60A1 /* Products */,
+				72BCF3D75A823C8EB8FC70F7 /* Pods */,
+				3B28AAFB99F6D4A87DD4039E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,27 @@
 		79F395491D744D8B005A60A1 /* Swiftagram */ = {
 			isa = PBXGroup;
 			children = (
-				79F3954A1D744D8B005A60A1 /* AppDelegate.swift */,
+				79F3955F1D7458A2005A60A1 /* Swiftagram.entitlements */,
 				79F3954C1D744D8B005A60A1 /* ViewController.swift */,
+				79F395601D745C08005A60A1 /* UsersTableViewController.swift */,
+				79A845F61D746D8300DCA8E1 /* PostViewController.swift */,
+				79F66BB11D7472DC00A6DA5F /* FeedTableViewController.swift */,
+				79D90AFE1D7477DA004AEB7B /* FeedTableViewCell.swift */,
 				79F3954E1D744D8B005A60A1 /* Main.storyboard */,
-				79F395511D744D8B005A60A1 /* Assets.xcassets */,
 				79F395531D744D8B005A60A1 /* LaunchScreen.storyboard */,
-				79F395561D744D8B005A60A1 /* Info.plist */,
+				79F3955C1D744EBD005A60A1 /* Supporting Files */,
 			);
 			path = Swiftagram;
+			sourceTree = "<group>";
+		};
+		79F3955C1D744EBD005A60A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79F3954A1D744D8B005A60A1 /* AppDelegate.swift */,
+				79F395511D744D8B005A60A1 /* Assets.xcassets */,
+				79F395561D744D8B005A60A1 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79F395591D744D8B005A60A1 /* Build configuration list for PBXNativeTarget "Swiftagram" */;
 			buildPhases = (
+				71FBC099E817157C1D5EFA8F /* [CP] Check Pods Manifest.lock */,
 				79F395431D744D8B005A60A1 /* Sources */,
 				79F395441D744D8B005A60A1 /* Frameworks */,
 				79F395451D744D8B005A60A1 /* Resources */,
+				06E163F8FB99FCD6862B0746 /* [CP] Embed Pods Frameworks */,
+				9393703F151597FB3C9F9754 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +147,11 @@
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 5SBW7AT5HT;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -132,13 +186,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06E163F8FB99FCD6862B0746 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swiftagram/Pods-Swiftagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71FBC099E817157C1D5EFA8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9393703F151597FB3C9F9754 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swiftagram/Pods-Swiftagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		79F395431D744D8B005A60A1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				79F3954D1D744D8B005A60A1 /* ViewController.swift in Sources */,
+				79D90AFF1D7477DA004AEB7B /* FeedTableViewCell.swift in Sources */,
+				79F66BB21D7472DC00A6DA5F /* FeedTableViewController.swift in Sources */,
+				79F395611D745C08005A60A1 /* UsersTableViewController.swift in Sources */,
 				79F3954B1D744D8B005A60A1 /* AppDelegate.swift in Sources */,
+				79A845F71D746D8300DCA8E1 /* PostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +288,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -232,6 +339,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -259,8 +367,10 @@
 		};
 		79F3955A1D744D8B005A60A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3EB74C8DC484CC942D7F341 /* Pods-Swiftagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swiftagram/Swiftagram.entitlements;
 				DEVELOPMENT_TEAM = 5SBW7AT5HT;
 				INFOPLIST_FILE = Swiftagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -272,8 +382,10 @@
 		};
 		79F3955B1D744D8B005A60A1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6611B3863A46483FEF6F84D5 /* Pods-Swiftagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Swiftagram/Swiftagram.entitlements;
 				DEVELOPMENT_TEAM = 5SBW7AT5HT;
 				INFOPLIST_FILE = Swiftagram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -302,6 +414,7 @@
 				79F3955B1D744D8B005A60A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
